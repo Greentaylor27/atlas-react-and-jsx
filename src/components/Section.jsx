@@ -1,7 +1,8 @@
-export default function Section() {
+export default function Section({ title, children }) {
     return (
-        <Section title="foo">
-            Sed nec diam magna. Nam nec nisi id nisi cursus vehicula.
-        </Section>
+        <div className="section">
+            <h1>{title}</h1>
+            {children}
+        </div>
     )
 }
