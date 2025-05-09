@@ -1,6 +1,7 @@
 import Header from "./components/Header";
 import Section from "./components/Section";
 import OpenLink from "./components/OpenLink";
+import CopyLink from "./components/CopyLink";
 
 function App() {
   return <div className="app">

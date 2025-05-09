@@ -10,7 +10,6 @@ export default function CopyLink({ link }) {
     }
 
     return (
-        <img src="src/assets/copy.svg" alt="Copy Link" onClick={copyToClipBoard} />
-    )
-
+        <img src="src/assets/copy.svg" alt="Copy Link" onClick={copyToClipBoard} style={{ cursor: 'pointer' }} />
+    );
 }
