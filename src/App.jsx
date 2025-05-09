@@ -1,7 +1,8 @@
 import Header from "./components/Header";
 import Section from "./components/Section";
-import OpenLink from "./components/OpenLink";
-import CopyLink from "./components/CopyLink";
+import HelpfulResource from "./components/HelpfulResource";
+import AboutMe from "./components/AboutMe";
+
 
 function App() {
   return <div className="app">
@@ -19,6 +20,10 @@ function App() {
         <li>React is really fast thanks to its virtual DOM - it only updates the parts of the page that actually change.</li>
       </ul>
     </Section>
+    <HelpfulResource label="W3School" link="https://www.w3schools.com/react/default.asp"></HelpfulResource>
+    <HelpfulResource label="BroCode" link="https://www.youtube.com/watch?v=CgkZ7MvWUAA"></HelpfulResource>
+    <HelpfulResource label="React Documentation (Nothing better than the info from the source)" link="https://www.React.dev"></HelpfulResource>
+    <AboutMe me="images/Profile_pic.png" name="Taylor Green" spec="Full-Stack Web Dev" trimester="5" />
   </div>;
 }
 
