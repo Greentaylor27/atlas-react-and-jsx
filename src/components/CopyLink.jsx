@@ -1,3 +1,5 @@
+import copy from '../assets/copy.svg'
+
 export default function CopyLink({ link }) {
     function copyToClipBoard() {
         navigator.clipboard.writeText(link)
@@ -10,6 +12,6 @@ export default function CopyLink({ link }) {
     }
 
     return (
-        <img src="src/assets/copy.svg" alt="Copy Link" onClick={copyToClipBoard} style={{ cursor: 'pointer' }} />
+        <img src={copy} alt="Copy Link" onClick={copyToClipBoard} style={{ cursor: 'pointer' }} />
     );
 }
