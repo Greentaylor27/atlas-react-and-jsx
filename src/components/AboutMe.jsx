@@ -7,7 +7,7 @@ export default function AboutMe({ me, name, spec, trimester }) {
             <ul>
                 <p>{name}</p>
                 <p>{spec}</p>
-                <p>{trimester}</p>
+                <p>Trimester: {trimester}</p>
                 <p>A language I have fallen in love with is JavaScript and Python. Python for data manipulation and JavaScript for everything else.
                     However I do love Bootstrap for just a down and dirty website.
                 </p>
